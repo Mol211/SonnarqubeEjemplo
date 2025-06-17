@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Compilación y pruebas unitarias') {
             steps {
-                sh 'mvn clean test'
+                sh 'mvn clean verify'
             }
         }
         stage('Lanzar el analisis de sonarqube') {

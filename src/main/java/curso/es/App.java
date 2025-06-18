@@ -2,9 +2,6 @@ package curso.es;
 
 public class App { 
 
-    private App() {
-    throw new IllegalStateException("Utility class");
-    }
     public static double sumar(double numero, double numero2) {
         return numero + numero2;
     }

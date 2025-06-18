@@ -1,5 +1,4 @@
 package curso.es;
-import java.util.logging.Logger;
 
 public class App { 
     public static double sumar(double numero, double numero2) {

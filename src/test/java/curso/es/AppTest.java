@@ -53,13 +53,13 @@ public class AppTest {
     }
     @Test
     public void test_mitad() {
-        double devuelto = App.Mitad(16);
+        double devuelto = App.mitad(16);
         Assert.assertEquals(8.0, devuelto, 0);
     }
     @Test
     public void test_triplar() {
-        double devuelto = App.Triplar(5);
-        Assert.assertEquals(1.0, devuelto, 0);
+        double devuelto = App.triplar(5);
+        Assert.assertEquals(15.0, devuelto, 0);
     }
 
     
